@@ -1,0 +1,31 @@
+table {
+	border-collapse: collapse;
+	margin: 20px;
+}
+
+th {
+	text-align: left;
+}
+
+th, td {
+	/* border: 1px solid var(--table-splitter-color); */
+	border-inline: 1px solid var(--in-content-box-border-color);
+	padding: 3px 4px;
+}
+
+tr:nth-child(even) {
+	background-color: var(--in-content-box-background-odd);
+}
+
+tbody>tr:hover {
+	background-color: var(--in-content-item-hover);
+}
+
+td {
+	/* border-inline: 1px solid var(--table-splitter-color); */
+	/* border-inline: 1px solid black; */
+}
+
+#grid {
+	margin: 20px;
+}
